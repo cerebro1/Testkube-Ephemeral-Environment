@@ -4,7 +4,7 @@ import { check, sleep } from 'k6';
 
 export let options = {
   vus: 1, // Virtual Users
-  duration: '10s', // Duration of the test
+  duration: '10s', // Duration of test
 };
 
 export default function () {
